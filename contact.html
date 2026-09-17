@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f1d2c" />
+  <meta name="description" content="Contact Anu Drone Solutions for aerial photography, videography, real-estate and event coverage." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact | Anu Drone Solutions" />
+  <meta property="og:description" content="Request a quote for aerial imagery and drone coverage for your project." />
+  <meta property="og:url" content="https://www.anudronesolutions.com/contact.html" />
+  <meta property="og:image" content="https://www.anudronesolutions.com/favicon.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://www.anudronesolutions.com/contact.html" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <title>Contact | Anu Drone Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Anu Drone Solutions home">
+        <span class="brand-mark">AD</span>
+        <span>Anu Drone Solutions</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+
+      <a class="button button-primary" href="contact.html">Get a quote</a>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">Contact</p>
+        <h1>Plan your flight.</h1>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <p>Tell us what you need, when you need it and where the shoot is happening. We will confirm the flight plan and return a quote.</p>
+
+          <div class="contact-list">
+            <div><span>Email</span><a href="mailto:anudroneservices@gmail.com">anudroneservices@gmail.com</a></div>
+            <div><span>Phone</span><a href="tel:+61433462834">0433 462 834</a></div>
+            <div><span>YouTube</span><a href="https://www.youtube.com/@anudroneservices" target="_blank" rel="noopener">@anudroneservices</a></div>
+          </div>
+        </div>
+
+        <form class="quote-form" id="quoteForm" novalidate>
+          <div class="field-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+
+          <div class="field-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="field-row">
+            <label for="service">Service</label>
+            <select id="service" name="service">
+              <option>Photography</option>
+              <option>Videography</option>
+              <option>Real Estate</option>
+              <option>Occasions</option>
+            </select>
+          </div>
+
+          <div class="field-row">
+            <label for="details">Project brief</label>
+            <textarea id="details" name="details" rows="5" placeholder="Location, date, idea, or what you'd like captured..."></textarea>
+          </div>
+
+          <button class="button button-primary" type="submit">Send request</button>
+          <p class="form-status" id="formStatus" aria-live="polite">We usually reply within a day.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="footer-brand">
+        <span class="brand-mark small">AD</span>
+        <span>© <span id="year"></span> Anu Drone Solutions</span>
+      </div>
+      <a href="https://www.youtube.com/@anudroneservices" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

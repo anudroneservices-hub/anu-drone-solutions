@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Anu Drone Solutions icon">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f3c87d"/>
+      <stop offset="100%" stop-color="#d9912d"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#0f1d2c"/>
+  <circle cx="32" cy="32" r="20" fill="none" stroke="url(#g)" stroke-width="4"/>
+  <path d="M18 42l9-20h10l9 20M22 29h20" stroke="url(#g)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="32" cy="32" r="3" fill="#f3c87d"/>
+</svg>
